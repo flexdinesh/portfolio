@@ -1,0 +1,41 @@
+@import '@styles/_theme.scss';
+
+.container {
+  height: 8rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .separator {
+    border-bottom: 1px solid $borderGrey;
+    width: 50%;
+    margin: 1rem 0;
+  }
+}
+
+.name {
+  margin: 0;
+  font-size: 3rem;
+  font-weight: 800;
+  text-align: center;
+}
+
+.sub-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem 0;
+  font-size: 1.125rem;
+
+  .sub {
+    color: $colorPrimary;
+  }
+
+  .dot-separator {
+    &:after {
+      content: '\2219';
+      padding: 0 0.5rem;
+    }
+  }
+}

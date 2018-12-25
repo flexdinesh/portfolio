@@ -1,0 +1,15 @@
+@import '@styles/_theme.scss';
+
+@mixin highlight-text() {
+  background: $highlightBG;
+  color: #fff;
+  padding: 0 0.25rem;
+
+  &:before {
+    content: '\00a0';
+  }
+
+  &:after {
+    content: '\00a0';
+  }
+}

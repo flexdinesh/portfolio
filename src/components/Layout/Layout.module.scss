@@ -1,0 +1,16 @@
+@import '@styles/_theme.scss';
+
+.page-wrapper {
+  min-height: 100vh;
+  margin: 0 auto;
+  max-width: 960px;
+}
+
+.content-container {
+  margin: 0 auto;
+  max-width: 960px;
+  min-height: calc(100vh - #{$headerHeight} - #{$footerHeight});
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}

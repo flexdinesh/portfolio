@@ -3,7 +3,6 @@
 @mixin highlight-text() {
   background: $highlightBG;
   color: #fff;
-  padding: 0 0.25rem;
 
   &:before {
     content: '\00a0';
@@ -11,5 +10,18 @@
 
   &:after {
     content: '\00a0';
+  }
+}
+
+@mixin highlight-text-with-pad() {
+  @include highlight-text;
+  padding: 0 0.25rem;
+}
+
+@mixin anchor-style {
+  color: $textPrimary;
+
+  &:hover {
+    color: $colorPrimary;
   }
 }

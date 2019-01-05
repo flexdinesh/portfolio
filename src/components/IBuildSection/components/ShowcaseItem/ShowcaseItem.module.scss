@@ -1,0 +1,45 @@
+@import '@styles/_theme.scss';
+@import '@styles/_mixins.scss';
+@import '@styles/_breakpoints.scss';
+
+.wrapper {
+  margin: 1rem 0;
+
+  .anchor {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    @include anchor-style;
+
+    &:hover {
+      .desc {
+        color: $colorPrimary;
+      }
+    }
+
+    @include breakpoint-medium-down {
+      flex-direction: column;
+    }
+
+    .title {
+      // font-size: 1.125rem;
+      font-size: 1rem;
+      font-weight: 600;
+    }
+
+    .desc {
+      font-size: 0.875rem;
+      // font-style: italic;
+      color: $textAlternate;
+      @include breakpoint-medium-down {
+        font-size: 1rem;
+      }
+    }
+  }
+}
+
+.dot-separator-wrapper {
+  @include breakpoint-medium-down {
+    display: none;
+  }
+}

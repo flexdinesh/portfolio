@@ -1,19 +1,30 @@
 import PropTypes from 'prop-types'
 import React from 'react'
+import { Link } from 'gatsby'
 import styles from './Header.module.scss'
 
-const Header = () => (
+const Header = ({ showHome }) => (
   <header className={styles.header}>
     <div className={styles.menu}>
-      <div className={styles.menuItem}>About</div>
-      <div className={styles.menuItem}>Open Source</div>
-      <div className={styles.menuItem}>Blog</div>
+      {showHome ? (
+        <div className={styles.menuItem}>
+          <Link to="/">Home</Link>
+        </div>
+      ) : null}
+      <div className={styles.menuItem}>
+        <Link to="/about/">About</Link>
+      </div>
+      <div className={styles.menuItem}>
+        <Link to="/open-source/">OSS</Link>
+      </div>
+      <div className={styles.menuItem}><Link to="/blog/">Blog</Link></div>
     </div>
   </header>
 )
 
 Header.propTypes = {
   siteMetadata: PropTypes.object,
+  showHome: PropTypes.bool,
 }
 
 export default Header

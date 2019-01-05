@@ -1,0 +1,6 @@
+.dot-separator {
+  &:after {
+    content: '\2219';
+    padding: 0 0.5rem;
+  }
+}

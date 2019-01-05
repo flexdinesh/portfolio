@@ -1,5 +1,11 @@
 @import '@styles/_theme.scss';
+@import '@styles/_breakpoints.scss';
 
+html {
+  @include breakpoint-medium-down {
+    font-size: 14px;
+  }
+}
 a {
   color: $colorPrimary;
   text-decoration: none;

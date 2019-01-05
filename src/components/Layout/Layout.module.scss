@@ -3,7 +3,11 @@
 .page-wrapper {
   min-height: 100vh;
   margin: 0 auto;
-  max-width: 960px;
+  max-width: 90%;
+
+  @media (min-width: 1056px) {
+    max-width: 960px;
+  }
 }
 
 .content-container {

@@ -6,7 +6,7 @@ import Header from '@components/Header'
 import Footer from '@components/Footer'
 import styles from './Layout.module.scss'
 
-const Layout = ({ children }) => (
+const Layout = ({ children, showHome = true }) => (
   <StaticQuery
     query={graphql`
       query SiteTitleQuery {
@@ -21,7 +21,7 @@ const Layout = ({ children }) => (
     `}
     render={data => (
       <div className={styles.pageWrapper}>
-        <Header siteMetadata={data.site.siteMetadata} />
+        <Header siteMetadata={data.site.siteMetadata} showHome={showHome} />
         <div className={styles.contentContainer}>{children}</div>
         <Footer siteMetadata={data.site.siteMetadata} />
       </div>
@@ -31,6 +31,7 @@ const Layout = ({ children }) => (
 
 Layout.propTypes = {
   children: PropTypes.node.isRequired,
+  showHome: PropTypes.bool,
 }
 
 export default Layout

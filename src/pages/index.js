@@ -1,4 +1,5 @@
 import React from 'react'
+import { graphql } from 'gatsby'
 import Layout from '@components/Layout'
 import SEO from '@components/seo'
 import NameBoard from '@components/NameBoard'
@@ -11,7 +12,7 @@ const IndexPage = ({ data }) => (
       keywords={[`developer`, `engineer`, `react`, `javascript`]}
     />
     <NameBoard siteMetadata={data.site.siteMetadata} />
-    <IBuildSection siteMetadata={data.site.siteMetadata} />
+    <IBuildSection />
   </Layout>
 )
 

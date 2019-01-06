@@ -5230,6 +5230,16 @@ gatsby-source-filesystem@^2.0.8:
     valid-url "^1.0.9"
     xstate "^3.1.0"
 
+gatsby-transformer-javascript-frontmatter@^2.0.5:
+  version "2.0.5"
+  resolved "https://registry.yarnpkg.com/gatsby-transformer-javascript-frontmatter/-/gatsby-transformer-javascript-frontmatter-2.0.5.tgz#5d2c7566761fed597b13020b96e182c6456d44ed"
+  integrity sha512-4Xf960gglZKJ+ZUHMc/sY7vSSxCIJODG0Znja+lz+gCBHxrayu81nEtSFZ+WiVtcaUMOrTkNYH6GEUuDuxXgDw==
+  dependencies:
+    "@babel/parser" "^7.0.0"
+    "@babel/runtime" "^7.0.0"
+    "@babel/traverse" "^7.0.0"
+    bluebird "^3.5.0"
+
 gatsby-transformer-sharp@^2.1.8:
   version "2.1.9"
   resolved "https://registry.yarnpkg.com/gatsby-transformer-sharp/-/gatsby-transformer-sharp-2.1.9.tgz#b00b9e8f4ec2648016bf87e5b0daf59daef8f805"

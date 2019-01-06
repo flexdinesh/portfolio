@@ -1,11 +1,11 @@
 import PropTypes from 'prop-types'
 import React from 'react'
+import { StaticQuery, graphql } from 'gatsby'
 import Highlight from '@components/Highlight'
 import ShowcaseItem from './components/ShowcaseItem'
 import styles from './IBuildSection.module.scss'
-import portfolioItems from './portfolio-items'
 
-const IBuildSection = () => (
+const IBuildSection = ({ portfolioItems }) => (
   <div className={styles.container}>
     <h1 className={styles.title}>I Build Things</h1>
     <p className={styles.intro}>
@@ -25,4 +25,31 @@ IBuildSection.propTypes = {
   siteMetadata: PropTypes.object,
 }
 
-export default IBuildSection
+export default () => (
+  <StaticQuery
+    query={graphql`
+      query {
+        allJavascriptFrontmatter {
+          edges {
+            node {
+              frontmatter {
+                portfolioItems {
+                  title
+                  desc
+                  link
+                }
+              }
+            }
+          }
+        }
+      }
+    `}
+    render={data => (
+      <IBuildSection
+        portfolioItems={
+          data.allJavascriptFrontmatter.edges[0].node.frontmatter.portfolioItems
+        }
+      />
+    )}
+  />
+)

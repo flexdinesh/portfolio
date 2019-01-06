@@ -19,6 +19,10 @@
     color: $colorPrimary;
     margin: 0 0.5rem;
     justify-content: flex-end;
+
+    &:hover {
+      box-shadow: 0 1px 0 0 currentColor;
+    }
   }
 }
 

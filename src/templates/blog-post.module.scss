@@ -1,0 +1,16 @@
+@import '@styles/_theme.scss';
+
+.title {
+  margin: 0;
+}
+
+.date {
+  color: $textAlternate;
+    font-style: italic;
+    font-size: 0.875rem;
+  margin: 0.25rem 0;
+}
+
+.content {
+  margin: 1.5rem 0;
+}

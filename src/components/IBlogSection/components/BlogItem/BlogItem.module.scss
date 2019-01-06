@@ -45,7 +45,6 @@
     text-align: right;
     flex: 1;
     font-size: 0.875rem;
-    // font-style: italic;
     color: $textAlternate;
     @include breakpoint-medium-down {
       font-size: 1rem;

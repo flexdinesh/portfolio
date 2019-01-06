@@ -2,6 +2,8 @@
 @import '@styles/_mixins.scss';
 
 .container {
+  margin: 0.5rem 0;
+
   .separator {
     border-bottom: 1px solid $borderGrey;
     width: 100%;
@@ -20,7 +22,7 @@
 }
 
 .showcase-container {
-  padding: 0.5rem 0;
+  padding: 0.25rem 0;
 
   .dot-separator {
     &:after {

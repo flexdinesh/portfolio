@@ -1,7 +1,7 @@
 ---
 title: 2018 - Year In Review
 published: true
-description: Looking back on how I fared in 2018
+description: Reflecting on how I cruised through 2018
 tags: #yearinreview #webdev #career
 date: '2019-01-04'
 ---
@@ -55,7 +55,7 @@ date: '2019-01-04'
 - Started building and **publishing libraries**
 - Started **writing** about the things I learn and the things I build
 - Became a publisher in **Hackernoon** and **Codeburst**
-- All my write ups together have over **140k+ views** in Medium (not counting dev.to posts)
+- All my write ups together have been viewed over **250k times** (100k+ DEV and 150k+ Medium)
 - A few blog posts that I wrote got featured in other platforms and curations
 - Found awesome people in the community (twitter and dev.to) and drew **inspiration** from them
 

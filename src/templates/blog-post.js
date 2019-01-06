@@ -1,14 +1,19 @@
 import React from 'react'
 import Layout from '@components/Layout'
 import SEO from '@components/seo'
+import styles from './blog-post.module.scss'
 
 const BlogPost = ({ data }) => {
   const post = data.markdownRemark
   return (
     <Layout>
       <SEO title={post.frontmatter.title} />
-      <h1>{post.frontmatter.title}</h1>
-      <div dangerouslySetInnerHTML={{ __html: post.html }} />
+      <h1 className={styles.title}>{post.frontmatter.title}</h1>
+      <div className={styles.date}>{post.frontmatter.date}</div>
+      <div
+        className={styles.content}
+        dangerouslySetInnerHTML={{ __html: post.html }}
+      />
     </Layout>
   )
 }
@@ -21,6 +26,7 @@ export const query = graphql`
       html
       frontmatter {
         title
+        date(formatString: "MMMM D, YYYY")
       }
     }
   }

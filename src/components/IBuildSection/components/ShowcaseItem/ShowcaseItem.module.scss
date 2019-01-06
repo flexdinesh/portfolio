@@ -3,7 +3,7 @@
 @import '@styles/_breakpoints.scss';
 
 .wrapper {
-  margin: 1rem 0;
+  margin: 0.75rem 0;
   display: flex;
   flex-wrap: wrap;
   align-items: baseline;
@@ -31,7 +31,7 @@
 
     .desc {
       font-size: 0.875rem;
-      color: $textAlternate;
+      color: lighten($textPrimary, 10%);
       @include breakpoint-medium-down {
         font-size: 1rem;
       }

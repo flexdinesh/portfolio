@@ -1,7 +1,6 @@
 import PropTypes from 'prop-types'
 import React from 'react'
 import { StaticQuery, graphql } from 'gatsby'
-import Highlight from '@components/Highlight'
 import ShowcaseItem from './components/ShowcaseItem'
 import styles from './IBuildSection.module.scss'
 
@@ -9,8 +8,7 @@ const IBuildSection = ({ portfolioItems }) => (
   <div className={styles.container}>
     <h1 className={styles.title}>I Build Things</h1>
     <p className={styles.intro}>
-      I build and maintain open source JavaScript and React libraries (over{' '}
-      <Highlight>40k</Highlight> downloads from npm).
+      I have created a few JavaScript and React libraries (40k+ npm downloads).
     </p>
     <div className={styles.showcaseContainer}>
       {portfolioItems.map(pi => (

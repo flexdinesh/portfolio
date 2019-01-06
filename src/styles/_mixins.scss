@@ -1,7 +1,7 @@
 @import '@styles/_theme.scss';
 
 @mixin highlight-text() {
-  background: $highlightBG;
+  background: lighten($highlightBG, 5%);
   color: #fff;
 
   &:before {

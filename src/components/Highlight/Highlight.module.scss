@@ -11,6 +11,6 @@
 .highlight-underline {
   // font-style: italic;
   font-weight: 500;
-  color: $textPrimary;
-  border-bottom: 1.5px solid $textPrimary;
+  color: $colorAlternate;
+  box-shadow: 0 1.5px 0 0 currentColor;
 }

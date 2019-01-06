@@ -26,29 +26,29 @@
     @include breakpoint-medium-down {
       flex-direction: column;
     }
-
-    .title {
-      font-size: 1rem;
-      font-weight: 500;
-    }
-
-    .desc {
-      font-size: 0.875rem;
-      color: $textAlternate;
-      @include breakpoint-medium-down {
-        font-size: 1rem;
-      }
-    }
   }
+}
 
-  .date {
-    text-align: right;
-    flex: 1;
-    font-size: 0.875rem;
-    color: $textAlternate;
-    @include breakpoint-medium-down {
-      font-size: 1rem;
-    }
+.date {
+  text-align: right;
+  flex: 1;
+  font-size: 0.875rem;
+  color: $textAlternate;
+  @include breakpoint-medium-down {
+    font-size: 1rem;
+  }
+}
+
+.title {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.desc {
+  font-size: 0.875rem;
+  color: $textAlternate;
+  @include breakpoint-medium-down {
+    font-size: 1rem;
   }
 }
 
@@ -56,4 +56,31 @@
   @include breakpoint-medium-down {
     display: none;
   }
+}
+
+.title-date-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+}
+.wrapper-full-page {
+  composes: wrapper;
+  flex-direction: column;
+}
+
+.anchor-full-page {
+  composes: anchor;
+}
+
+.date-full-page {
+  composes: date;
+}
+.title-full-page {
+  composes: title;
+  font-weight: 600;
+}
+
+.desc-full-page {
+  composes: desc;
+  color: $textPrimary;
 }

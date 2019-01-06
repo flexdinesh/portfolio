@@ -22,7 +22,7 @@ const IBuildSection = ({ portfolioItems }) => (
 )
 
 IBuildSection.propTypes = {
-  portfolioItems: PropTypes.object,
+  portfolioItems: PropTypes.array,
 }
 
 export default () => (

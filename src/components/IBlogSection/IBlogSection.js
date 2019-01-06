@@ -27,7 +27,7 @@ const IBlogSection = ({ blogItems }) => (
 )
 
 IBlogSection.propTypes = {
-  blogItems: PropTypes.object,
+  blogItems: PropTypes.array,
 }
 
 export default () => (

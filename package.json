@@ -36,11 +36,14 @@
     "build": "gatsby build",
     "develop": "gatsby develop",
     "start": "npm run develop",
+    "serve:build": "http-server ./public",
+    "start:prod": "npm run build && npm run serve:build",
     "format": "prettier --write \"src/**/*.js\"",
     "test": "echo \"Write tests! -> https://gatsby.app/unit-testing\""
   },
   "devDependencies": {
     "gatsby-plugin-sass": "^2.0.7",
+    "http-server": "^0.11.1",
     "node-sass": "^4.11.0",
     "prettier": "^1.15.2"
   }

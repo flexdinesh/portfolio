@@ -1,7 +1,6 @@
 import PropTypes from 'prop-types'
 import React from 'react'
 import { StaticQuery, graphql } from 'gatsby'
-import Highlight from '@components/Highlight'
 import BlogItem from './components/BlogItem'
 import styles from './IBlogSection.module.scss'
 

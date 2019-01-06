@@ -9,8 +9,8 @@ const IBuildSection = ({ portfolioItems }) => (
   <div className={styles.container}>
     <h1 className={styles.title}>I Build Things</h1>
     <p className={styles.intro}>
-      All these libs together have been downloaded over{' '}
-      <Highlight>40k</Highlight> times
+      I build and maintain open source JavaScript and React libraries (over{' '}
+      <Highlight>40k</Highlight> downloads from npm).
     </p>
     <div className={styles.showcaseContainer}>
       {portfolioItems.map(pi => (

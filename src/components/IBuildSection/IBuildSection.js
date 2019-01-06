@@ -22,13 +22,25 @@ const IBuildSection = ({ portfolioItems }) => (
 )
 
 IBuildSection.propTypes = {
-  siteMetadata: PropTypes.object,
+  portfolioItems: PropTypes.object,
 }
 
 export default () => (
   <StaticQuery
     query={graphql`
       query {
+        site {
+          siteMetadata {
+            title
+            fullName
+            twitterHandle
+            githubHandle
+            stackOverflowHandle
+            devToHandle
+            mediumHandle
+            linkedInHandle
+          }
+        }
         allJavascriptFrontmatter {
           edges {
             node {

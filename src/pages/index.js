@@ -1,9 +1,9 @@
 import React from 'react'
-import { graphql } from 'gatsby'
 import Layout from '@components/Layout'
 import SEO from '@components/seo'
 import NameBoard from '@components/NameBoard'
 import IBuildSection from '@components/IBuildSection'
+import IBlogSection from '@components/IBlogSection'
 
 const IndexPage = ({ data }) => (
   <Layout showHome={false}>
@@ -11,26 +11,10 @@ const IndexPage = ({ data }) => (
       title="Dinesh Pandiyan"
       keywords={[`developer`, `engineer`, `react`, `javascript`]}
     />
-    <NameBoard siteMetadata={data.site.siteMetadata} />
+    <NameBoard />
     <IBuildSection />
+    <IBlogSection />
   </Layout>
 )
-
-export const query = graphql`
-  query {
-    site {
-      siteMetadata {
-        title
-        fullName
-        twitterHandle
-        githubHandle
-        stackOverflowHandle
-        devToHandle
-        mediumHandle
-        linkedInHandle
-      }
-    }
-  }
-`
 
 export default IndexPage

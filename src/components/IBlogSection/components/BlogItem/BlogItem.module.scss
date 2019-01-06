@@ -5,9 +5,12 @@
 .wrapper {
   margin: 1rem 0;
   display: flex;
-  flex-wrap: wrap;
   align-items: baseline;
-  
+
+  @include breakpoint-medium-down {
+    flex-direction: column;
+  }
+
   .anchor {
     display: flex;
     flex-wrap: wrap;
@@ -35,6 +38,17 @@
       @include breakpoint-medium-down {
         font-size: 1rem;
       }
+    }
+  }
+
+  .date {
+    text-align: right;
+    flex: 1;
+    font-size: 0.875rem;
+    // font-style: italic;
+    color: $textAlternate;
+    @include breakpoint-medium-down {
+      font-size: 1rem;
     }
   }
 }

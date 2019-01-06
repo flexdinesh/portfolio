@@ -8,7 +8,7 @@ import IBlogSection from '@components/IBlogSection'
 const IndexPage = ({ data }) => (
   <Layout showHome={false}>
     <SEO
-      title="Dinesh Pandiyan"
+      title="Full Stack Dev"
       keywords={[`developer`, `engineer`, `react`, `javascript`]}
     />
     <NameBoard />

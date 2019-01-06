@@ -57,30 +57,3 @@
     display: none;
   }
 }
-
-.title-date-wrapper {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: baseline;
-}
-.wrapper-full-page {
-  composes: wrapper;
-  flex-direction: column;
-}
-
-.anchor-full-page {
-  composes: anchor;
-}
-
-.date-full-page {
-  composes: date;
-}
-.title-full-page {
-  composes: title;
-  font-weight: 600;
-}
-
-.desc-full-page {
-  composes: desc;
-  color: $textPrimary;
-}

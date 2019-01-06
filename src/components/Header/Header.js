@@ -14,12 +14,6 @@ const Header = ({ showHome }) => (
       <div className={styles.menuItem}>
         <Link to="/about/">About</Link>
       </div>
-      <div className={styles.menuItem}>
-        <Link to="/oss/">OSS</Link>
-      </div>
-      <div className={styles.menuItem}>
-        <Link to="/blog/">Blog</Link>
-      </div>
     </div>
   </header>
 )

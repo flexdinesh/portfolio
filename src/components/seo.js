@@ -54,6 +54,10 @@ function SEO({ description, lang, meta, keywords, title }) {
                 name: `og:image`,
                 content: data.allFile.edges[0].node.childImageSharp.resize.src,
               },
+              {
+                name: `google-site-verification`,
+                content: 'lpiCbxqS9teGY6OaEiSz8PQFGmf52vwkQGss2PufUGI',
+              },
             ]
               .concat(
                 keywords.length > 0

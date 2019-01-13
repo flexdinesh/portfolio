@@ -110,7 +110,7 @@ These are my favourite breakpoints
 ```jsx
 setDefaultBreakpoints([{ cats: 0 }, { dinosaurs: 900 }])
 
-;<Breakpoint cats only>
+<Breakpoint cats only>
   Only cats can render me 🐈
 </Breakpoint>
 ```

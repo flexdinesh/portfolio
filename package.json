@@ -19,7 +19,7 @@
     "serve:build": "http-server ./public",
     "start": "npm run develop",
     "start:prod": "npm run build && npm run serve:build",
-    "deploy:github": "node ./scripts/deploy-github",
+    "deploy:github": "npm run clean && npm run build && node ./scripts/deploy-github",
     "test": "echo \"Write tests! -> https://gatsby.app/unit-testing\""
   },
   "dependencies": {

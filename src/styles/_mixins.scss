@@ -3,6 +3,7 @@
 @mixin highlight-text() {
   background: lighten($highlightBG, 5%);
   color: #fff;
+  border-radius: 1px;
 
   &:before {
     content: '\00a0';
@@ -24,4 +25,15 @@
   &:hover {
     color: $colorPrimary;
   }
+}
+
+@mixin smooth-font {
+  $smoothTextShadowColor: rgba(0, 0, 0, 0.01) 0 0 1px;
+  font-size: 100%;
+  -webkit-text-size-adjust: 100%;
+  font-variant-ligatures: none;
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  text-shadow: $smoothTextShadowColor;
 }

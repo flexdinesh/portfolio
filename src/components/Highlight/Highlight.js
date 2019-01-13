@@ -13,4 +13,4 @@ const HighlightUnderline = ({ children }) => {
   return <span className={styles.highlightUnderline}>{children}</span>
 }
 
-export default HighlightUnderline
+export default HighlightBG

@@ -18,7 +18,7 @@
 .name {
   margin: 0;
   font-size: 3rem;
-  font-weight: 800;
+  font-weight: 700;
   text-align: center;
 
   @include breakpoint-medium-down {
@@ -31,10 +31,14 @@
   align-items: center;
   justify-content: center;
   padding: 0.5rem 0;
-  font-size: 1.125rem;
+  font-size: 1.065rem;
 
   .sub {
     color: $colorPrimary;
+
+    > span {
+      padding-bottom: 0.065rem;
+    }
   }
 
   .dot-separator {

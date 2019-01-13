@@ -42,12 +42,12 @@
 
 .title {
   font-size: 1rem;
-  font-weight: 500;
+  font-weight: 400;
 }
 
 .desc {
-  font-size: 0.875rem;
-  color: lighten($textPrimary, 10%);
+  font-size: 0.95rem;
+  color: darken($textAlternate, 10%);
   @include breakpoint-medium-down {
     font-size: 1rem;
   }

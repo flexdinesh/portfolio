@@ -50,6 +50,10 @@ function SEO({ description, lang, meta, keywords, title }) {
                 name: `twitter:description`,
                 content: metaDescription,
               },
+              {
+                name: `og:image`,
+                content: data.allFile.edges[0].node.childImageSharp.resize.src,
+              },
             ]
               .concat(
                 keywords.length > 0
@@ -91,6 +95,27 @@ const detailsQuery = graphql`
         description
         author
         fullName
+      }
+    }
+    allFile(
+      filter: { sourceInstanceName: { eq: "images" }, name: { eq: "dp" } }
+    ) {
+      edges {
+        node {
+          name
+          extension
+          relativePath
+          publicURL
+          childImageSharp {
+            resize {
+              width
+              height
+              aspectRatio
+              originalName
+              src
+            }
+          }
+        }
       }
     }
   }

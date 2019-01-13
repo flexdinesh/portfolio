@@ -1,6 +1,11 @@
 export const frontmatter = {
   portfolioItems: [
     {
+      title: 'tweetfancy.io',
+      desc: 'Tweet with bold, italics and strikethough text',
+      link: 'https://tweetfancy.io/',
+    },
+    {
       title: 'Typy',
       desc: 'Minimal JavaScript type checking library',
       link: 'https://github.com/flexdinesh/typy',

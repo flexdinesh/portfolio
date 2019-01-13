@@ -1,9 +1,13 @@
 @import '@styles/_theme.scss';
 @import '@styles/_breakpoints.scss';
+@import '@styles/_mixins.scss';
 
 html {
+  @include smooth-font;
+  font-size: 17px;
+
   @include breakpoint-medium-down {
-    font-size: 14px;
+    font-size: 16px;
   }
 }
 

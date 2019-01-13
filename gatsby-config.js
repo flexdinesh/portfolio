@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Full Stack Dev`,
-    description: `Dinesh Pandiyan is a Full Stack Engineer with amazing JavaScript skills. He is the author of open source projects like Typy, React Socks, React RenderInBrowser, Dev Landing Page and more.`,
+    description: `Dinesh Pandiyan is a Full Stack Engineer with amazing JavaScript skills. He is the author of popular open source projects like Typy, React Socks, React RenderInBrowser, Dev Landing Page and more.`,
     author: `@flexdinesh`,
     fullName: `Dinesh Pandiyan`,
     twitterHandle: `https://twitter.com/flexdinesh`,
@@ -41,13 +41,19 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
+        name: `portfolio`,
+        short_name: `portfolio`,
         start_url: `/`,
         background_color: `#5badf0`,
         theme_color: `#5badf0`,
         display: `minimal-ui`,
         icon: `src/images/boy.png`, // This path is relative to the root of the site.
+      },
+    },
+    {
+      resolve: `gatsby-plugin-typography`,
+      options: {
+        pathToConfigModule: `src/utils/typography`,
       },
     },
     `gatsby-plugin-sass`,

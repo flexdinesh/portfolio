@@ -7,7 +7,9 @@ const typography = new Typography({
       styles: ['400', '500', '700'],
     },
   ],
-  baseFontSize: '17px',
+  baseFontSize: '16px',
+  baseLineHeight: 1.666,
+  bodyColor: 'inherit',
   headerFontFamily: [
     'Ubuntu',
     'Helvetica Neue',

@@ -3,6 +3,12 @@
 
 html {
   @include smooth-font;
+  color: $textPrimary;
+  @include font-size-reset;
+}
+
+body {
+  color: $textPrimary;
 }
 
 a {

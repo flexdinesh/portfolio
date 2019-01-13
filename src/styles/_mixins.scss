@@ -1,4 +1,5 @@
 @import '@styles/_theme.scss';
+@import '@styles/_breakpoints.scss';
 
 @mixin highlight-text() {
   background: lighten($highlightBG, 5%);
@@ -34,4 +35,16 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   text-shadow: $smoothTextShadowColor;
+}
+
+@mixin font-size-reset {
+  font-size: 15px;
+
+  @include breakpoint-large-up {
+    font-size: 17px;
+  }
+
+  @include breakpoint-medium-down {
+    font-size: 17px;
+  }
 }

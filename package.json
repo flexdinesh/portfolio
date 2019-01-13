@@ -16,7 +16,7 @@
     "clean": "rm -rf public .cache",
     "develop": "gatsby develop",
     "format": "prettier --write \"src/**/*.js\"",
-    "serve:build": "http-server ./public",
+    "serve:build": "npm run clean && npm run build && http-server ./public",
     "start": "npm run develop",
     "start:prod": "npm run build && npm run serve:build",
     "deploy:github": "npm run clean && npm run build && node ./scripts/deploy-github",

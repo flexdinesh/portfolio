@@ -119,7 +119,8 @@ It's pretty neat to use the component like this.
 
 ## Site is Up and Running
 
-Here's the link to the site - [Dinesh Pandiyan | Full Stack Dev](https://flexdinesh.github.io/)
+I recently re-wrote my portfolio with GatsbyJS - [Portfolio v3](https://dineshpandiyan.com)
+I moved the portfolio mentioned in this post here - [Portfolio v2](https://portfoliov2.dineshpandiyan.com/)
 
 Link to source code - [React Codebase](https://github.com/flexdinesh/flexdinesh.github.io/tree/dev)
 

@@ -8,7 +8,6 @@ const typography = new Typography({
     },
   ],
   baseFontSize: '17px',
-  baseLineHeight: 1.666,
   headerFontFamily: [
     'Ubuntu',
     'Helvetica Neue',

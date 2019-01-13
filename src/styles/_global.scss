@@ -4,7 +4,7 @@
 
 html {
   @include smooth-font;
-  font-size: 17px;
+  font-size: 18px;
 
   @include breakpoint-medium-down {
     font-size: 16px;

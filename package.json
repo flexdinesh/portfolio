@@ -19,6 +19,7 @@
     "serve:build": "http-server ./public",
     "start": "npm run develop",
     "start:prod": "npm run build && npm run serve:build",
+    "deploy:github": "node ./scripts/deploy-github",
     "test": "echo \"Write tests! -> https://gatsby.app/unit-testing\""
   },
   "dependencies": {
@@ -47,6 +48,7 @@
   },
   "devDependencies": {
     "gatsby-plugin-sass": "^2.0.7",
+    "gh-pages": "^2.0.1",
     "http-server": "^0.11.1",
     "node-sass": "^4.11.0",
     "prettier": "^1.15.2"

@@ -1,9 +1,26 @@
 {
   "name": "dinesh-pandiyan-portfolio",
+  "version": "0.1.0",
   "private": true,
   "description": "Dinesh Pandiyan | Full Stack Dev",
-  "version": "0.1.0",
+  "keywords": [
+    "developer",
+    "javascript",
+    "portfolio",
+    "react"
+  ],
+  "license": "MIT",
   "author": "Dinesh Pandiyan <flexdinesh@gmail.com>",
+  "scripts": {
+    "build": "gatsby build",
+    "clean": "rm -rf public .cache",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"src/**/*.js\"",
+    "serve:build": "http-server ./public",
+    "start": "npm run develop",
+    "start:prod": "npm run build && npm run serve:build",
+    "test": "echo \"Write tests! -> https://gatsby.app/unit-testing\""
+  },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.12",
     "@fortawesome/free-brands-svg-icons": "^5.6.3",
@@ -27,22 +44,6 @@
     "react-helmet": "^5.2.0",
     "react-typography": "^0.16.18",
     "typography": "^0.16.18"
-  },
-  "keywords": [
-    "portfolio",
-    "javascript",
-    "react",
-    "developer"
-  ],
-  "license": "MIT",
-  "scripts": {
-    "build": "gatsby build",
-    "develop": "gatsby develop",
-    "start": "npm run develop",
-    "serve:build": "http-server ./public",
-    "start:prod": "npm run build && npm run serve:build",
-    "format": "prettier --write \"src/**/*.js\"",
-    "test": "echo \"Write tests! -> https://gatsby.app/unit-testing\""
   },
   "devDependencies": {
     "gatsby-plugin-sass": "^2.0.7",

@@ -51,9 +51,11 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-plugin-typography`,
+      resolve: 'gatsby-plugin-web-font-loader',
       options: {
-        pathToConfigModule: `src/utils/typography`,
+        google: {
+          families: ['Ubuntu:400,700:latin'],
+        },
       },
     },
     `gatsby-plugin-sass`,

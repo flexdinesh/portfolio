@@ -2,13 +2,15 @@
 @import '@styles/_mixins.scss';
 
 html {
+  font-family: 'Ubuntu', 'Helvetica Neue', 'Arial', 'sans-serif';
   @include smooth-font;
-  color: $textPrimary;
   @include font-size-reset;
+  color: $textPrimary;
 }
 
 body {
   color: $textPrimary;
+  line-height: 1.6;
 }
 
 a {

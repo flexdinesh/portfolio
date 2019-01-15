@@ -2,15 +2,27 @@
 @import '@styles/_mixins.scss';
 
 html {
-  font-family: 'Ubuntu', 'Helvetica Neue', 'Arial', 'sans-serif';
+  font-family: 'Ubuntu', 'Helvetica Neue', 'sans-serif';
   @include smooth-font;
   @include font-size-reset;
   color: $textPrimary;
 }
 
 body {
+  font-family: 'Ubuntu', 'Helvetica Neue', 'sans-serif';
+  @include smooth-font;
+  @include font-size-reset;
   color: $textPrimary;
   line-height: 1.6;
+}
+
+.wf-loading {
+  visibility: hidden;
+}
+
+.wf-active,
+.wf-inactive {
+  visibility: visible;
 }
 
 a {

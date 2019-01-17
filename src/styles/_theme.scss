@@ -4,8 +4,21 @@ $primary-cyan: #79c6c0;
 $primary-pink: #d23669;
 $primary-grey: #607d8b;
 $border-grey: #eee;
+$bg-white: #fffeff;
 
-$highlight-blue: #daedf7;
+$highlight-blue: #c1e4ff;
+// $highlight-blue: #d1e9fc;
+$text-forBlue: #091b33;
+$primary-orange: #f78b09;
+$highlight-orange: #fddfba;
+$text-forOrange: #332009;
+$highlight-yellow: #fffac1;
+$text-forYellow: #34360c;
+$highlight-green: #e4ffc1;
+$text-forGreen: #22360c;
+$highlight-grey: #dcdbdc;
+$text-forGrey: #1e1e1e;
+
 $highlight-grey: #dfe6e9;
 $highlight-cyan: #d7f2ef;
 
@@ -16,10 +29,19 @@ $samantha-grey: #9b9b9b;
 
 $colorPrimary: $primary-blue;
 $colorAlternate: $alternate-blue;
-$textPrimary: $samantha-black;
+$colorBG: $bg-white;
+$textPrimary: $text-black;
 $textAlternate: $samantha-grey;
-$highlightBG: $primary-blue;
 $borderGrey: $border-grey;
+
+$highlightBG: $highlight-blue;
+$highlightText: $text-forBlue;
+$highlightBGGrey: $highlight-grey;
+$highlightTextGrey: $text-forGrey;
+$highlightBGYellow: $highlight-yellow;
+$highlightTextYellow: $text-forYellow;
+$highlightBGOrange: $highlight-orange;
+$highlightTextOrange: $text-forOrange;
 
 // variables
 $headerHeight: 4rem;

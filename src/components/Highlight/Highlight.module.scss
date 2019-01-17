@@ -1,11 +1,43 @@
 @import '@styles/_mixins.scss';
 
-.highlight {
-  @include highlight-text;
+@mixin highlight-text() {
+  // background: lighten($highlightBG, 5%);
+  border-radius: 1px;
+
+  // &:before {
+  //   content: '\00a0';
+  // }
+
+  // &:after {
+  //   content: '\00a0';
+  // }
 }
 
-.highlight-with-pad {
-  @include highlight-text-with-pad;
+.highlight {
+  @include highlight-text;
+  background: $highlightBG;
+  color: $highlightText;
+}
+
+.highlight-grey {
+  @include highlight-text;
+  background: lighten($highlightBGGrey, 5%);
+  // background: $highlightBGGrey;
+  color: $highlightTextGrey;
+}
+
+.highlight-yellow {
+  @include highlight-text;
+  background: lighten($highlightBGYellow, 5%);
+  // background: $highlightBGYellow;
+  color: $highlightTextYellow;
+}
+
+.highlight-orange {
+  @include highlight-text;
+  background: lighten($highlightBGOrange, 5%);
+  // background: $highlightBGOrange;
+  color: $highlightTextOrange;
 }
 
 .highlight-underline {

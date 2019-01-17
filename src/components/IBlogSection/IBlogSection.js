@@ -1,6 +1,7 @@
 import PropTypes from 'prop-types'
 import React from 'react'
 import { StaticQuery, graphql } from 'gatsby'
+import { HighlightBGYellow } from '@components/Highlight'
 import BlogItem from './components/BlogItem'
 import styles from './IBlogSection.module.scss'
 
@@ -8,7 +9,7 @@ const IBlogSection = ({ blogItems }) => (
   <div className={styles.container}>
     <h1 className={styles.title}>I Write Stuff</h1>
     <p className={styles.intro}>
-      I blog about stuff I find interesting (250k+ views in DEV and Medium).
+      I blog about stuff I find interesting <HighlightBGYellow>(250k+ views in DEV and Medium)</HighlightBGYellow>.
     </p>
     <div className={styles.showcaseContainer}>
       {blogItems.map(({ node }) => (

@@ -1,25 +1,6 @@
 @import '@styles/_theme.scss';
 @import '@styles/_breakpoints.scss';
 
-@mixin highlight-text() {
-  background: lighten($highlightBG, 5%);
-  color: #fff;
-  border-radius: 1px;
-
-  &:before {
-    content: '\00a0';
-  }
-
-  &:after {
-    content: '\00a0';
-  }
-}
-
-@mixin highlight-text-with-pad() {
-  @include highlight-text;
-  padding: 0 0.25rem;
-}
-
 @mixin anchor-style {
   color: $textPrimary;
 

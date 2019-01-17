@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types'
 import React from 'react'
-import Highlight from '@components/Highlight'
+import { HighlightBGPrimary } from '@components/Highlight'
 import SocialHandles from '@components/SocialHandles'
 import styles from './NameBoard.module.scss'
 import { StaticQuery, graphql } from 'gatsby'
@@ -10,15 +10,15 @@ const NameBoard = ({ siteMetadata }) => (
     <h1 className={styles.name}>{siteMetadata.fullName}</h1>
     <div className={styles.subWrapper}>
       <div className={styles.sub}>
-        <Highlight withPad>Creator</Highlight>
+        <HighlightBGPrimary withPad>Creator</HighlightBGPrimary>
       </div>
       <div className={styles.dotSeparator} />
       <div className={styles.sub}>
-        <Highlight withPad>Writer</Highlight>
+        <HighlightBGPrimary withPad>Writer</HighlightBGPrimary>
       </div>
       <div className={styles.dotSeparator} />
       <div className={styles.sub}>
-        <Highlight withPad>Engineer</Highlight>
+        <HighlightBGPrimary withPad>Engineer</HighlightBGPrimary>
       </div>
     </div>
     <SocialHandles siteMetadata={siteMetadata} />

@@ -6,6 +6,7 @@ html {
   @include smooth-font;
   @include font-size-reset;
   color: $textPrimary;
+  background-color: $colorBG;
 }
 
 body {
@@ -14,6 +15,7 @@ body {
   @include font-size-reset;
   color: $textPrimary;
   line-height: 1.6;
+  background-color: $colorBG;
 }
 
 .wf-loading {

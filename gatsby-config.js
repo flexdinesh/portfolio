@@ -50,14 +50,6 @@ module.exports = {
         icon: `src/images/boy.png`, // This path is relative to the root of the site.
       },
     },
-    {
-      resolve: 'gatsby-plugin-web-font-loader',
-      options: {
-        google: {
-          families: ['Ubuntu:400,700:latin'],
-        },
-      },
-    },
     `gatsby-plugin-sass`,
     {
       resolve: `gatsby-plugin-google-analytics`,

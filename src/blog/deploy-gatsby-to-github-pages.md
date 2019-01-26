@@ -17,7 +17,7 @@ These are my top reasons
 - Generated site is super fast
 - Out of the box support for GraphQL
 
-## Deploy Gatsby sites anywhere
+## Deploy Gatsby sites anywhere 
 
 Since Gatsby generates static files, you can deploy it anywhere.
 But the easiest and quickest option would be to deploy your site to [GitHub Pages](https://pages.github.com/).
@@ -65,12 +65,16 @@ ghpages.publish(
 
 - Add a new npm script `deploy:github` in `package.json`
 
-```js
+```json
 "deploy:github": "npm run build && node ./scripts/deploy-github"
 ```
 
-Voila! Your static site will be up and running in a few seconds. 🎉
+- Run the script and your static site will be up and running in a few seconds
+
+_Note: When you run the command, you will be asked to enter your GitHub creds in the command line before publish._
 
 If you need further materials, you could take a look at the source code of my personal website [Dinesh Pandiyan - Portfolio](https://github.com/flexdinesh/portfolio). It is deployed in both Netlify and Github Pages.
+
+If you're looking for a good Gatsby starter template, I maintain a boilerplate with my pre-baked web setup - [Gatsby Boilerplate](https://github.com/flexdinesh/gatsby-boilerplate). I usually fork this repo if I want to start with a new Gatsby site.
 
 Happy Gatsbying! 🔥

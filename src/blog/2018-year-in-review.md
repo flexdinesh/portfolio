@@ -37,7 +37,7 @@ date: '2019-01-04'
 
 - ✅ Start with OSS _(have over 10 actively maintained projects now)_
 - ✅ Become an active contributor to a repo that’s not mine _(became one of the top contributors)_
-- ✅ Create and publish a library that others find helpful _(have 7 libs now with 40k downloads)_
+- ✅ Create and publish a library that others find helpful _(have 7 libs now with 130k+ downloads)_
 - ✅ Build a portfolio
 - ✅ Hit 1k reps in Stack Overflow _(2.4k currently)_
 - ✅ Hit 1k followers in dev.to _(2.2k currently)_

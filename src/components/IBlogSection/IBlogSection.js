@@ -9,7 +9,7 @@ const IBlogSection = ({ blogItems }) => (
   <div className={styles.container}>
     <h1 className={styles.title}>I Write Stuff</h1>
     <p className={styles.intro}>
-      I blog about stuff I find interesting <HighlightBGYellow>(250k+ views in DEV and Medium)</HighlightBGYellow>.
+      I blog about stuff I find interesting <HighlightBGYellow>(300k+ views in DEV and Medium)</HighlightBGYellow>.
     </p>
     <div className={styles.showcaseContainer}>
       {blogItems.map(({ node }) => (

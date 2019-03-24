@@ -9,7 +9,7 @@ const IBuildSection = ({ portfolioItems }) => (
   <div className={styles.container}>
     <h1 className={styles.title}>I Build Things</h1>
     <p className={styles.intro}>
-      I have created a few JavaScript and React libraries <HighlightBGYellow>(130k+ npm downloads)</HighlightBGYellow>.
+      I have created a few JavaScript and React libraries <HighlightBGYellow>(180k+ npm downloads)</HighlightBGYellow>.
     </p>
     <div className={styles.showcaseContainer}>
       {portfolioItems.map(pi => (

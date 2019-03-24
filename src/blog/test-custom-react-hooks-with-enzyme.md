@@ -1,5 +1,5 @@
 ---
-title: React Hooks: Test custom hooks with Enzyme
+title: React Hooks - Test custom hooks with Enzyme
 published: true
 description: A simple approach to test the behaviour of custom React hooks
 tags: #react #javascript #tutorial #webdev

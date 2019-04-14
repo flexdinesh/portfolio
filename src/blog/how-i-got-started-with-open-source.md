@@ -6,6 +6,12 @@ tags: opensource, beginners
 date: '2018-02-04'
 ---
 
+This article is also cross-posted in —
+
+DEV - [How I got started with Open-Source](https://dev.to/flexdinesh/how-i-got-started-with-open-source--882)
+
+---
+
 _TLDR: I started with documentation instead of waiting for some big idea to get started._
 
 As most developers, I have also been wanting to get started with Open-Source for almost two years with no progress. I went through all star Open-Source GitHub accounts like [Sindre Sorhus](https://github.com/sindresorhus), browsed through all the tweets and Twitter handles of great developers but was never able to figure out where to get started.

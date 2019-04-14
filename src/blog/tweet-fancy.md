@@ -6,6 +6,12 @@ tags: #showdev #webdev #javascript
 date: '2019-01-22'
 ---
 
+This article is also cross-posted in —
+
+DEV - [Tweet in bold, italics and strikethrough text](https://dev.to/flexdinesh/tweet-in-bold-italics-and-strikethough-text-3b1b)
+
+---
+
 _**TL;DR** - I built a tool - [tweetfancy.io](https://tweetfancy.io/) to tweet in bold, italics and strikethrough text._
 
 Ever fancied tweeting with **bold**, _italics_ or ~~strikethrough~~ text?

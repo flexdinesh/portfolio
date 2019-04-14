@@ -6,6 +6,12 @@ tags: javascript, webdev, tutorial
 date: '2018-02-17'
 ---
 
+This article is also cross-posted in —
+
+DEV - [Short Circuit Assignment in JavaScript](https://dev.to/flexdinesh/short-circuit-assignment-in-javascript--4k80)
+
+---
+
 ![JS short circuit assignment](https://image.ibb.co/c9duVn/short_circuit_alt.jpg)
 
 **tldr;** _Assign default value to a variable using short circuit evaluation, when expected value is not found._

@@ -6,6 +6,12 @@ tags: #yearinreview #webdev #career
 date: '2019-01-04'
 ---
 
+This article is also cross-posted in —
+
+DEV - [2018 - Year In Review](https://dev.to/flexdinesh/2018---year-in-review-515h)
+
+---
+
 2018 has been an amazing year for me. I **learnt** new things, **built** a few things, **wrote** a handful of blog posts and **met** some amazing devs in the community. But above all, I became a better dev by _learning and reflecting on my mistakes_ throughout. Here's a quick list down of how 2018 turned out to be an amazing year for me.
 
 ## Things I built in 2018

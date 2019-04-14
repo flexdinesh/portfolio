@@ -6,6 +6,16 @@ tags: css, react, javascript, webdev
 date: '2018-04-01'
 ---
 
+This article is also cross-posted in —
+
+DEV - [I Created My Portfolio with React and Some Magic](https://dev.to/flexdinesh/i-re-wrote-my-portfolio-and-added-some-magic-22n7)
+
+HackerNoon - [I Created My Portfolio with React and Some Magic](https://hackernoon.com/i-created-my-portfolio-with-react-and-some-magic-fda27ba06a06)
+
+codeburst - [I Created My Portfolio with React and Some Magic](https://codeburst.io/i-created-my-portfolio-with-react-and-some-magic-fe661302ce4c)
+
+---
+
 ![Dinesh Pandiyan - Dev Landing Page](https://image.ibb.co/erwyaS/portfolio.png)
 
 _**TL;DR** - I re-wrote my [portfolio](https://flexdinesh.github.io) in React and added some niche tricks to make it look all shiny and rad. Everytime you refresh the page, a new look will be loaded._

@@ -6,6 +6,22 @@ tags: javascript, webdev, tutorial
 date: '2018-02-10'
 ---
 
+This article is also cross-posted in —
+
+DEV - [Accessing Nested Objects in JavaScript](https://dev.to/flexdinesh/accessing-nested-objects-in-javascript--9m4)
+
+HackerNoon - [Accessing Nested Objects in JavaScript](https://hackernoon.com/accessing-nested-objects-in-javascript-f02f1bd6387f)
+
+codeburst - [Accessing Nested Objects in JavaScript](https://codeburst.io/accessing-nested-objects-in-javascript-c2ed249fe576)
+
+It has been featured in —
+
+DEV - [The 7 Most Popular DEV Posts from the Past Week](https://dev.to/thepracticaldev/the-7-most-popular-dev-posts-from-the-past-week--31m3)
+
+codeburst - [Top Web & Software Development Articles — March 1, 2018](https://codeburst.io/top-web-software-development-articles-march-1-2018-51ed35890abd)
+
+---
+
 ![undefined error in JavaScript](https://image.ibb.co/i3ybGS/undefined_access.jpg)
 
 **tldr;** _safely access nested objects in JavaScript in a super cool way._

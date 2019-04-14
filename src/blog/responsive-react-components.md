@@ -6,6 +6,16 @@ tags: react, javascript, webdev, npm
 date: '2018-11-20'
 ---
 
+This article is also cross-posted in —
+
+DEV - [Introducing Responsive React Components](https://dev.to/flexdinesh/introducing-responsive-react-components--1a6a)
+
+HackerNoon - [Introducing Responsive React Components](https://hackernoon.com/introducing-responsive-react-components-f6cd14976570)
+
+codeburst - [Introducing Responsive React Components](https://codeburst.io/introducing-responsive-react-components-93524b02601e)
+
+---
+
 ![Responsive React Components](https://image.ibb.co/hXCL70/responsive-react-banner.png)
 
 **TL;DR** - _You can render viewport specific components in React with a one-liner_

@@ -6,6 +6,16 @@ tags: webdev, react, javascript, tutorial
 date: '2018-03-12'
 ---
 
+This article is also cross-posted in —
+
+DEV - [Upgrade to Webpack 4](https://dev.to/flexdinesh/upgrade-to-webpack-4---5bc5)
+
+HackerNoon - [Upgrade to Webpack 4](https://hackernoon.com/upgrade-to-webpack-4-3ebb199aa9bf)
+
+codeburst - [Upgrade to Webpack 4](https://codeburst.io/upgrade-to-webpack-4-78b40b5251d9)
+
+---
+
 ![Upgrade to Webpack 4](https://image.ibb.co/n6oUYS/webpack_upgrade.png)
 
 **Webpack 4** _(codename Legato)_ was released two weeks back. And it is packed with a lot of shiny features. Unlike Webpack 3, which was not a major upgrade over its predecessor, Webpack 4 has a string of compelling features.

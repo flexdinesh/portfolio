@@ -6,12 +6,21 @@ tags: #react #javascript #tutorial #webdev
 date: '2019-03-23'
 ---
 
+This article is also cross-posted in —
+
+DEV - [React Hooks: Test custom hooks with Enzyme](https://dev.to/flexdinesh/react-hooks-test-custom-hooks-with-enzyme-40ib)
+
+codeburst - [React Hooks: Test custom hooks with Enzyme](https://codeburst.io/react-hooks-test-custom-hooks-with-enzyme-fdb233707dce)
+
+---
+
 **TL;DR** - Wrap your custom hook in a component and shallow render it to test implementation details.
 
 # What you will learn
+
 - React test strategies
-    - **user observable behaviour**
-    - **implementation details**
+  - **user observable behaviour**
+  - **implementation details**
 - Testing custom hooks with Enzyme
 
 ## Test Strategies

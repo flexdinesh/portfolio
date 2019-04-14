@@ -6,6 +6,26 @@ tags: github, website, code, tutorial
 date: '2018-02-09'
 ---
 
+This article is also cross-posted in —
+
+DEV - [Create your developer landing page with GitHub Pages](https://dev.to/flexdinesh/create-your-developer-landing-page-with-github-pages---42jk)
+
+HackerNoon - [Create your developer landing page with GitHub Pages](https://hackernoon.com/create-your-developer-landing-page-with-github-pages-70c89b40d052)
+
+codeburst - [Create your developer landing page with GitHub Pages](https://codeburst.io/create-your-developer-landing-page-with-github-pages-791c19227b30)
+
+It has been featured in —
+
+DEV - [The 7 Most Popular DEV Posts from the Past Week](https://dev.to/thepracticaldev/the-7-most-popular-dev-posts-from-the-past-week--56ho)
+
+daily-now - [Most Popular Development Posts Of The Week (14 Mar 2018)](https://medium.com/daily-now/most-popular-development-posts-of-the-week-14-mar-2018-b10c1b746325)
+
+codeburst - [Top Web & Software Development Articles — March 15, 2018](https://codeburst.io/top-web-software-development-articles-march-15-2018-3874e5effcaa)
+
+DEV - [ The Shoemaker's Children: A Developer Allegory](https://dev.to/joncassdev/the-shoemakers-children-a-developer-allegory--65g)
+
+---
+
 ![Developer Landing Page with GitHub Pages](https://image.ibb.co/jrzpdS/dev_landing_thumb.png)
 
 _All of us devs, at one point or other, would have wanted to have a personal website of our own, either to showcase our online presence or just 'coz it's fun. So here, I present you a ready-made **[Developer Landing Page](https://github.com/flexdinesh/dev-landing-page)**_

@@ -6,6 +6,12 @@ tags: #webdev #javascript #gatsby #react
 date: '2019-02-01'
 ---
 
+This article is also cross-posted in —
+
+DEV - [Don't build your portfolio with just React](https://dev.to/flexdinesh/dont-build-your-portfolio-with-just-react-11a9)
+
+---
+
 **TL;DR** - Use React along with [Gatsby](https://www.gatsbyjs.org/) or [Next](https://nextjs.org/) to build static public sites.
 
 React is all the rage these days and IMHO developing websites feels a lot easier with React. Of course, you can use and favor other frameworks too but I'm gonna limit the context of this post to React affictionados.

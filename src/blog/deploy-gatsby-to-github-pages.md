@@ -6,6 +6,14 @@ tags: #webdev #javascript #gatsby #react
 date: '2019-01-23'
 ---
 
+This article is also cross-posted in —
+
+DEV - [Deploy Gatsby sites to GitHub Pages](https://dev.to/flexdinesh/deploy-gatsby-sites-to-github-pages-eed)
+
+codeburst - [Deploy Gatsby sites to GitHub Pages](https://codeburst.io/deploy-gatsby-sites-to-github-pages-625a9978e7cd)
+
+---
+
 [Gatsby](https://www.gatsbyjs.org/) is all the rage now, thanks to the amazing team behind the fancy and easy-to-use framework. I'm not going to go into the details of why you **should use Gatsby** if you're **building a static website**. There are a ton of posts out there that say just that.
 
 Here's an excellent article on why - [Why you should use GatsbyJS to build static sites](https://medium.freecodecamp.org/why-you-should-use-gatsbyjs-to-build-static-sites-4f90eb6d1a7b)

@@ -6,6 +6,20 @@ tags: javascript, node, howto, tutorial
 date: '2018-03-05'
 ---
 
+This article is also cross-posted in —
+
+DEV - [Publish your own NPM package](https://dev.to/flexdinesh/publish-your-own-npm-package---5b71)
+
+HackerNoon - [Publish your own NPM package](https://hackernoon.com/publish-your-own-npm-package-946b19df577e)
+
+codeburst - [Publish your own NPM package](https://codeburst.io/publish-your-own-npm-package-ff918698d450)
+
+It has been featured in —
+
+JSK Weekly - March 14, 2018 (Email Newsletter)
+
+---
+
 ![Publish your own NPM package](https://i.ytimg.com/vi/rTsz09zRuTU/maxresdefault.jpg)
 
 **_Note: There's an amazing boilerplate for [npm modules](https://github.com/flexdinesh/npm-module-boilerplate). This post is based on what I learned from setting it up._**

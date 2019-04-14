@@ -6,6 +6,16 @@ tags: react, redux, javascript, webdev
 date: '2018-03-11'
 ---
 
+This article is also cross-posted in —
+
+DEV - [React-Redux Boilerplate with Best Practices](https://dev.to/flexdinesh/react-redux-boilerplate-with-best-practices--2pp5)
+
+HackerNoon - [React-Redux Boilerplate with Best Practices](https://hackernoon.com/react-redux-boilerplate-with-best-practices-518909659f4d)
+
+codeburst - [React-Redux Boilerplate with Best Practices](https://codeburst.io/react-redux-boilerplate-with-best-practices-30c3fd8cc434)
+
+---
+
 ![React-Redux Boilerplate](https://raw.githubusercontent.com/flexdinesh/react-redux-boilerplate/master/app/components/Header/images/banner.jpg)
 
 _TL;DR: There's an amazing [React-Redux Boilerplate](https://github.com/flexdinesh/react-redux-boilerplate). This post is based on what I learnt from setting it up._

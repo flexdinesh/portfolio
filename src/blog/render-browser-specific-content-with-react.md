@@ -7,6 +7,16 @@ tags: react, javascript, webdev, opensource
 date: '2018-05-27'
 ---
 
+This article is also cross-posted in —
+
+DEV - [Render Browser Specific Content with React](https://dev.to/flexdinesh/render-browser-specific-content-with-react--amm)
+
+HackerNoon - [Render Browser Specific Content with React](https://hackernoon.com/render-browser-specific-content-with-react-2651cef68faf)
+
+codeburst - [Render Browser Specific Content with React](https://codeburst.io/render-browser-specific-content-with-react-8bdb0b46966b)
+
+---
+
 ![Browser Banner](https://image.ibb.co/c8WZ2d/browser_banner.png)
 _**TL;DR** - You can render browser specific content in React with a one-liner._
 

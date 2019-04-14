@@ -10,6 +10,7 @@ module.exports = {
     devToHandle: `https://dev.to/flexdinesh`,
     mediumHandle: `https://medium.com/@flexdinesh`,
     linkedInHandle: `https://www.linkedin.com/in/dineshpandiyan/`,
+    siteUrl: `https://dineshpandiyan.com/`
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -38,6 +39,7 @@ module.exports = {
     `gatsby-transformer-javascript-frontmatter`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
+    `gatsby-plugin-feed`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {

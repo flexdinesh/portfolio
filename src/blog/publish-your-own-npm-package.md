@@ -4,6 +4,7 @@ published: true
 description: Step by step tutorial to build npm libraries
 tags: javascript, node, howto, tutorial
 date: '2018-03-05'
+canonicalURL: 'https://dev.to/flexdinesh/publish-your-own-npm-package---5b71'
 ---
 
 This article is also cross-posted in —

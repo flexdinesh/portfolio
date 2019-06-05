@@ -4,6 +4,7 @@ published: true
 description: A simple approach to test the behaviour of custom React hooks
 tags: #react #javascript #tutorial #webdev
 date: '2019-03-23'
+canonicalURL: 'https://dev.to/flexdinesh/react-hooks-test-custom-hooks-with-enzyme-40ib'
 ---
 
 This article is also cross-posted in —

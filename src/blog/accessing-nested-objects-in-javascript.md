@@ -4,6 +4,7 @@ published: true
 description: Dealing with 'cannot read property of undefined' error
 tags: javascript, webdev, tutorial
 date: '2018-02-10'
+canonicalURL: 'https://dev.to/flexdinesh/accessing-nested-objects-in-javascript--9m4'
 ---
 
 This article is also cross-posted in —

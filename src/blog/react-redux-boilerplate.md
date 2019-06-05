@@ -4,6 +4,7 @@ published: true
 description: A minimal React-Redux starter template
 tags: react, redux, javascript, webdev
 date: '2018-03-11'
+canonicalURL: 'https://dev.to/flexdinesh/react-redux-boilerplate-with-best-practices--2pp5'
 ---
 
 This article is also cross-posted in —

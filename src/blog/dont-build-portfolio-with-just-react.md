@@ -4,6 +4,7 @@ published: true
 description: Don't build your portfolio with just React. Use Gatsby.
 tags: #webdev #javascript #gatsby #react
 date: '2019-02-01'
+canonicalURL: 'https://dev.to/flexdinesh/dont-build-your-portfolio-with-just-react-11a9'
 ---
 
 This article is also cross-posted in —

@@ -4,6 +4,7 @@ published: true
 description: Render viewport specific components with a one-liner
 tags: react, javascript, webdev, npm
 date: '2018-11-20'
+canonicalURL: 'https://dev.to/flexdinesh/introducing-responsive-react-components--1a6a'
 ---
 
 This article is also cross-posted in —

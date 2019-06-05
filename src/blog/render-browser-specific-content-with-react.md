@@ -2,9 +2,9 @@
 title: Render Browser Specific Content
 published: true
 description: Render browser specific components with a one-liner
-
 tags: react, javascript, webdev, opensource
 date: '2018-05-27'
+canonicalURL: 'https://dev.to/flexdinesh/render-browser-specific-content-with-react--amm'
 ---
 
 This article is also cross-posted in —

@@ -4,6 +4,7 @@ published: true
 description: Deploy Gatsby sites to GitHub Pages - Tutorial
 tags: #webdev #javascript #gatsby #react
 date: '2019-01-23'
+canonicalURL: 'https://dev.to/flexdinesh/deploy-gatsby-sites-to-github-pages-eed'
 ---
 
 This article is also cross-posted in —

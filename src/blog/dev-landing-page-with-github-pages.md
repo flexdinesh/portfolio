@@ -4,6 +4,7 @@ published: true
 description: Minimal Developer Landing Page in minutes
 tags: github, website, code, tutorial
 date: '2018-02-09'
+canonicalURL: 'https://dev.to/flexdinesh/create-your-developer-landing-page-with-github-pages---42jk'
 ---
 
 This article is also cross-posted in —

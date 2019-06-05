@@ -4,6 +4,7 @@ published: true
 description: Upgrading your project from Webpack 3 to Webpack 4
 tags: webdev, react, javascript, tutorial
 date: '2018-03-12'
+canonicalURL: 'https://dev.to/flexdinesh/upgrade-to-webpack-4---5bc5'
 ---
 
 This article is also cross-posted in —

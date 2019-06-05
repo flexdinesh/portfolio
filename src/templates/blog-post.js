@@ -8,7 +8,7 @@ const BlogPost = ({ data }) => {
   const post = data.markdownRemark
   return (
     <Layout>
-      <SEO title={post.frontmatter.title} />
+      <SEO title={post.frontmatter.title} canonicalURL={post.frontmatter.canonicalURL} />
       <h1 className={styles.title}>{post.frontmatter.title}</h1>
       <div className={styles.date}>{post.frontmatter.date}</div>
       <div
@@ -27,6 +27,7 @@ export const query = graphql`
       html
       frontmatter {
         title
+        canonicalURL
         date(formatString: "MMMM D, YYYY")
       }
     }

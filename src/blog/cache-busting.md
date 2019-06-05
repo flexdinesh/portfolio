@@ -4,6 +4,7 @@ published: true
 description: A simple approach to cache busting in a React application
 tags: #react #javascript #webdev #browser
 date: '2019-04-14'
+canonicalURL: 'https://dev.to/flexdinesh/cache-busting-a-react-app-22lk'
 ---
 
 This article is also cross-posted in —

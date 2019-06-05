@@ -4,6 +4,7 @@ published: true
 description: Awesome Portfolio written in React
 tags: css, react, javascript, webdev
 date: '2018-04-01'
+canonicalURL: 'https://dev.to/flexdinesh/i-re-wrote-my-portfolio-and-added-some-magic-22n7'
 ---
 
 This article is also cross-posted in —

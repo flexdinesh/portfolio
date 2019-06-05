@@ -4,6 +4,7 @@ published: true
 description: Reflecting on how I cruised through 2018
 tags: #yearinreview #webdev #career
 date: '2019-01-04'
+canonicalURL: 'https://dev.to/flexdinesh/2018---year-in-review-515h'
 ---
 
 This article is also cross-posted in —

@@ -4,6 +4,7 @@ published: true
 description: tweetfancy.io - Tweet in bold, italics and strikethrough text
 tags: #showdev #webdev #javascript
 date: '2019-01-22'
+canonicalURL: 'https://dev.to/flexdinesh/tweet-in-bold-italics-and-strikethough-text-3b1b'
 ---
 
 This article is also cross-posted in —

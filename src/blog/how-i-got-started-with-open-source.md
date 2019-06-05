@@ -4,6 +4,7 @@ published: true
 description: A quick-start guide for beginners to get started with Open-Source
 tags: opensource, beginners
 date: '2018-02-04'
+canonicalURL: 'https://dev.to/flexdinesh/how-i-got-started-with-open-source--882'
 ---
 
 This article is also cross-posted in —

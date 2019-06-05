@@ -4,6 +4,7 @@ published: true
 description: Default values with short-circuit evaluation
 tags: javascript, webdev, tutorial
 date: '2018-02-17'
+canonicalURL: 'https://dev.to/flexdinesh/short-circuit-assignment-in-javascript--4k80'
 ---
 
 This article is also cross-posted in —

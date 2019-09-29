@@ -7,7 +7,7 @@ import {
   faStackOverflow,
   faDev,
   faMedium,
-  faLinkedin,
+  // faLinkedin,
 } from '@fortawesome/free-brands-svg-icons'
 
 const SocialHandles = ({ siteMetadata }) => {
@@ -48,13 +48,13 @@ const SocialHandles = ({ siteMetadata }) => {
       >
         <FontAwesomeIcon icon={faMedium} />
       </a>
-      <a
+      {/* <a
         href={siteMetadata.linkedInHandle}
         target="_blank"
         rel="noopener noreferrer"
       >
         <FontAwesomeIcon icon={faLinkedin} />
-      </a>
+      </a> */}
     </div>
   )
 }

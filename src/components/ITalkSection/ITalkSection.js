@@ -6,7 +6,7 @@ import styles from './ITalkSection.module.scss'
 
 const ITalkSection = ({ talks }) => (
   <div className={styles.container}>
-    <h1 className={styles.title}>I Give Talks</h1>
+    <h1 className={styles.title}>Talks</h1>
     <p className={styles.intro}>
       I have given a few talks on web dev and perf topics.
     </p>

@@ -29,6 +29,7 @@ export const query = graphql`
         title
         canonicalURL
         date(formatString: "MMMM D, YYYY")
+        noPage
       }
     }
   }

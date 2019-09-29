@@ -9,14 +9,19 @@ const IBlogSection = ({ blogItems }) => (
   <div className={styles.container}>
     <h1 className={styles.title}>I Write Stuff</h1>
     <p className={styles.intro}>
-      I blog about stuff I find interesting <HighlightBGYellow>(300k+ views in DEV and Medium)</HighlightBGYellow>.
+      I blog about stuff I find interesting{' '}
+      <HighlightBGYellow>(450k+ views in DEV and Medium)</HighlightBGYellow>.
     </p>
     <div className={styles.showcaseContainer}>
       {blogItems.map(({ node }) => (
         <BlogItem
           title={node.frontmatter.title}
           desc={node.frontmatter.description}
-          link={node.fields.slug}
+          link={
+            node.frontmatter.noPage
+              ? node.frontmatter.canonicalURL
+              : node.fields.slug
+          }
           date={node.frontmatter.date}
           key={node.id}
         />
@@ -43,6 +48,8 @@ export default () => (
                 title
                 description
                 date(formatString: "MMMM D, YYYY")
+                canonicalURL
+                noPage
               }
               fields {
                 slug

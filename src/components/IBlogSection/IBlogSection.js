@@ -47,7 +47,7 @@ export default () => (
               frontmatter {
                 title
                 description
-                date(formatString: "MMMM D, YYYY")
+                date(formatString: "MMM D, YYYY")
                 canonicalURL
                 noPage
               }

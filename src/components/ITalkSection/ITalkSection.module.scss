@@ -1,0 +1,33 @@
+@import '@styles/_theme.scss';
+@import '@styles/_mixins.scss';
+
+.container {
+  margin: 0.5rem 0;
+
+  .separator {
+    border-bottom: 1px solid $borderGrey;
+    width: 100%;
+    margin: 1rem 0;
+  }
+}
+
+.title {
+  margin: 0;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.intro {
+  margin: 0.5rem 0;
+}
+
+.showcase-container {
+  padding: 0.25rem 0;
+
+  .dot-separator {
+    &:after {
+      content: '\2219';
+      padding: 0 0.5rem;
+    }
+  }
+}

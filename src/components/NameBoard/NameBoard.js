@@ -46,19 +46,6 @@ export default () => (
             linkedInHandle
           }
         }
-        allJavascriptFrontmatter {
-          edges {
-            node {
-              frontmatter {
-                portfolioItems {
-                  title
-                  desc
-                  link
-                }
-              }
-            }
-          }
-        }
       }
     `}
     render={data => <NameBoard siteMetadata={data.site.siteMetadata} />}

@@ -4,6 +4,7 @@ import SEO from '@components/seo'
 import NameBoard from '@components/NameBoard'
 import IBuildSection from '@components/IBuildSection'
 import IBlogSection from '@components/IBlogSection'
+import ITalkSection from '@components/ITalkSection'
 
 const IndexPage = ({ data }) => (
   <Layout showHome={false}>
@@ -14,6 +15,7 @@ const IndexPage = ({ data }) => (
     <NameBoard />
     <IBuildSection />
     <IBlogSection />
+    <ITalkSection />
   </Layout>
 )
 

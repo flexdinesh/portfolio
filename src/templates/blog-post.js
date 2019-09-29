@@ -28,7 +28,7 @@ export const query = graphql`
       frontmatter {
         title
         canonicalURL
-        date(formatString: "MMMM D, YYYY")
+        date(formatString: "MMM D, YYYY")
         noPage
       }
     }

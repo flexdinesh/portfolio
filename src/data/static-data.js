@@ -57,4 +57,18 @@ export const frontmatter = {
       link: 'https://github.com/flexdinesh/npm-module-boilerplate',
     },
   ],
+  talks: [
+    {
+      host: 'React Sydney',
+      title: 'Using the new React DevTools',
+      date: '2019-09-02',
+      link: 'https://www.meetup.com/en-AU/React-Sydney/events/264441092/',
+    },
+    {
+      host: 'SydJS',
+      title: 'Progressive Rendering',
+      date: '2019-09-18',
+      link: 'https://www.youtube.com/watch?v=Q4bCo6KdWyk',
+    },
+  ],
 }

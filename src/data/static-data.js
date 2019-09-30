@@ -33,7 +33,7 @@ export const frontmatter = {
     },
     {
       title: 'Browser or Node',
-      desc: 'Check where the code is running in the browser or node.js',
+      desc: 'Check whether the code is running in the browser or node.js',
       link: 'https://github.com/flexdinesh/browser-or-node',
     },
     {

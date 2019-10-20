@@ -6,6 +6,7 @@ import IBuildSection from '@components/IBuildSection'
 import IBlogSection from '@components/IBlogSection'
 import ITalkSection from '@components/ITalkSection'
 import TweetThreadsSection from '@components/TweetThreadsSection'
+import PodcastSection from '@components/PodcastSection'
 
 const IndexPage = ({ data }) => (
   <Layout showHome={false}>
@@ -18,6 +19,7 @@ const IndexPage = ({ data }) => (
     <IBlogSection />
     <ITalkSection />
     <TweetThreadsSection />
+    <PodcastSection />
   </Layout>
 )
 

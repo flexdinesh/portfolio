@@ -83,4 +83,12 @@ export const frontmatter = {
       link: 'https://twitter.com/flexdinesh/status/1180324978278879232',
     },
   ],
+  podcasts: [
+    {
+      host: 'React Round Up',
+      title: 'Progressive SSR with Dinesh Pandiyan',
+      date: '2019-10-08',
+      link: 'https://www.youtube.com/watch?v=T0gUqhjk1Wc',
+    },
+  ],
 }

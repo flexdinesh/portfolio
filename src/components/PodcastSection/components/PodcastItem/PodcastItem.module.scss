@@ -1,0 +1,57 @@
+@import '@styles/_theme.scss';
+@import '@styles/_mixins.scss';
+@import '@styles/_breakpoints.scss';
+
+.wrapper {
+  margin: 0.75rem 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+
+  .anchor {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    @include anchor-style;
+
+    &:hover {
+      .title {
+        color: $colorPrimary;
+      }
+    }
+
+    @include breakpoint-medium-down {
+      flex-direction: column;
+    }
+
+    .host {
+      font-size: 1rem;
+      font-weight: 400;
+    }
+
+    .title {
+      font-size: 0.95rem;
+      color: darken($textAlternate, 5%);
+      @include breakpoint-medium-down {
+        font-size: 1rem;
+      }
+    }
+  }
+}
+
+.date {
+  text-align: right;
+  flex: 1;
+  font-size: 0.875rem;
+  color: $textAlternate;
+
+  @include breakpoint-medium-down {
+    font-size: 1rem;
+  }
+}
+
+.dot-separator-wrapper {
+  @include breakpoint-medium-down {
+    display: none;
+  }
+}

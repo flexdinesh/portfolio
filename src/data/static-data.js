@@ -71,4 +71,16 @@ export const frontmatter = {
       link: 'https://www.youtube.com/watch?v=Q4bCo6KdWyk',
     },
   ],
+  tweets: [
+    {
+      title: 'CSR vs SSR',
+      date: '2019-10-05',
+      link: 'https://twitter.com/flexdinesh/status/1180313818825576448',
+    },
+    {
+      title: 'Top 10 features in React Dev Tools',
+      date: '2019-10-05',
+      link: 'https://twitter.com/flexdinesh/status/1180324978278879232',
+    },
+  ],
 }

@@ -44,7 +44,7 @@ export default () => (
     render={data => (
       <PodcastSection
         podcasts={
-          data.allJavascriptFrontmatter.edges[0].node.frontmatter.podcasts
+          data.allJavascriptFrontmatter.edges[0].node.frontmatter.podcasts.reverse()
         }
       />
     )}

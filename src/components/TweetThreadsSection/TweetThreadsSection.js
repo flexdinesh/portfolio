@@ -45,7 +45,7 @@ export default () => (
     render={data => (
       <TweetThreadsSection
         tweets={
-          data.allJavascriptFrontmatter.edges[0].node.frontmatter.tweets
+          data.allJavascriptFrontmatter.edges[0].node.frontmatter.tweets.reverse()
         }
       />
     )}

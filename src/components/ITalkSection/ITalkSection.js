@@ -46,7 +46,7 @@ export default () => (
     render={data => (
       <ITalkSection
         talks={
-          data.allJavascriptFrontmatter.edges[0].node.frontmatter.talks
+          data.allJavascriptFrontmatter.edges[0].node.frontmatter.talks.reverse()
         }
       />
     )}

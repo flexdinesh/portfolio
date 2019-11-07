@@ -70,6 +70,12 @@ export const frontmatter = {
       date: '2019-09-18',
       link: 'https://www.youtube.com/watch?v=Q4bCo6KdWyk',
     },
+    {
+      host: 'React Sydney',
+      title: 'Compile-Time React',
+      date: '2019-11-04',
+      link: 'https://twitter.com/reactsydney/status/1190769441757249536',
+    }
   ],
   tweets: [
     {

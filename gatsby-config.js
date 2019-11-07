@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `Full Stack Dev`,
-    description: `Dinesh Pandiyan is a Full Stack Engineer with amazing JavaScript skills. He is the author of popular open source projects like Typy, React Socks, React RenderInBrowser, Dev Landing Page and more.`,
+    title: `Web Dev`,
+    description: `Dinesh Pandiyan is a JavaScript Engineer, international speaker, blogger and the author of a few popular open source projects.`,
     author: `@flexdinesh`,
     fullName: `Dinesh Pandiyan`,
     twitterHandle: `https://twitter.com/flexdinesh`,

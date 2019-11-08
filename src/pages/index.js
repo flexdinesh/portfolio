@@ -11,7 +11,7 @@ import PodcastSection from '@components/PodcastSection'
 const IndexPage = ({ data }) => (
   <Layout showHome={false}>
     <SEO
-      title="Full Stack Dev"
+      title="Web Dev"
       keywords={[`developer`, `engineer`, `react`, `javascript`]}
     />
     <NameBoard />

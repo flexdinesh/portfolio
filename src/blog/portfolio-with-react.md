@@ -21,7 +21,7 @@ codeburst - [I Created My Portfolio with React and Some Magic](https://codeburst
 
 _**TL;DR** - I re-wrote my [portfolio](https://flexdinesh.github.io) in React and added some niche tricks to make it look all shiny and rad. Everytime you refresh the page, a new look will be loaded._
 
-This whole write-up is based off this site - [Dinesh Pandiyan | Full Stack Dev](https://flexdinesh.github.io/)
+This whole write-up is based off this site - [Dinesh Pandiyan | Web Dev](https://flexdinesh.github.io/)
 
 A few weeks back I created [Dev Landing Page](https://github.com/flexdinesh/dev-landing-page) and wrote a [blog post](https://dev.to/flexdinesh/create-your-developer-landing-page-with-github-pages---42jk) about it. In less than a week, the repo got over **150 stars** and got featured in various articles. I guess people liked it. I created my portfolio on top of it.
 

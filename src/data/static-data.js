@@ -75,6 +75,12 @@ export const frontmatter = {
       title: 'Compile-Time React',
       date: '2019-11-04',
       link: 'https://twitter.com/reactsydney/status/1190769441757249536',
+    },
+    {
+      host: 'JSConf Hawai\'i',
+      title: 'Faster Web with Progressive Rendering',
+      date: '2020-02-05',
+      link: 'https://twitter.com/JSConfHi/status/1195050119374069760',
     }
   ],
   tweets: [

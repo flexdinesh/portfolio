@@ -1,6 +1,11 @@
 export const frontmatter = {
   portfolioItems: [
     {
+      title: 'babel-plugin-render-logger',
+      desc: 'A React babel plugin that makes debugging easier',
+      link: 'https://github.com/flexdinesh/babel-plugin-render-logger',
+    },
+    {
       title: 'tweetfancy.io',
       desc: 'Tweet with bold, italics and strikethough text',
       link: 'https://tweetfancy.io/',

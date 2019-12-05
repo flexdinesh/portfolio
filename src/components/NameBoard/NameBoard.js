@@ -10,15 +10,15 @@ const NameBoard = ({ siteMetadata }) => (
     <h1 className={styles.name}>{siteMetadata.fullName}</h1>
     <div className={styles.subWrapper}>
       <div className={styles.sub}>
-        <HighlightBGPrimary withPad>Creator</HighlightBGPrimary>
-      </div>
-      <div className={styles.dotSeparator} />
-      <div className={styles.sub}>
-        <HighlightBGPrimary withPad>Writer</HighlightBGPrimary>
-      </div>
-      <div className={styles.dotSeparator} />
-      <div className={styles.sub}>
         <HighlightBGPrimary withPad>Engineer</HighlightBGPrimary>
+      </div>
+      <div className={styles.dotSeparator} />
+      <div className={styles.sub}>
+        <HighlightBGPrimary withPad>Blogger</HighlightBGPrimary>
+      </div>
+      <div className={styles.dotSeparator} />
+      <div className={styles.sub}>
+        <HighlightBGPrimary withPad>Speaker</HighlightBGPrimary>
       </div>
     </div>
     <SocialHandles siteMetadata={siteMetadata} />

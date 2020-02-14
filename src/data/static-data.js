@@ -82,11 +82,17 @@ export const frontmatter = {
       link: 'https://twitter.com/reactsydney/status/1190769441757249536',
     },
     {
-      host: 'JSConf Hawai\'i',
+      host: "JSConf Hawai'i",
       title: 'Faster Web with Progressive Rendering',
       date: '2020-02-05',
       link: 'https://twitter.com/JSConfHi/status/1195050119374069760',
-    }
+    },
+    {
+      host: 'React Sydney',
+      title: 'Progressive SSR + Progressive Hydration with React',
+      date: '2020-03-02',
+      link: '#',
+    },
   ],
   tweets: [
     {
@@ -98,6 +104,12 @@ export const frontmatter = {
       title: 'Top 10 features in React Dev Tools',
       date: '2019-10-05',
       link: 'https://twitter.com/flexdinesh/status/1180324978278879232',
+    },
+    {
+      title:
+        'Progressive Server Rendering + Progressive Client Hydration with React',
+      date: '2020-01-19',
+      link: 'https://twitter.com/flexdinesh/status/1218824439237767168',
     },
   ],
   podcasts: [

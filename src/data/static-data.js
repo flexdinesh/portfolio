@@ -65,31 +65,31 @@ export const frontmatter = {
   talks: [
     {
       host: 'React Sydney',
-      title: 'Using the new React DevTools',
+      title: 'Using the new React devtools',
       date: '2019-09-02',
       link: 'https://www.meetup.com/en-AU/React-Sydney/events/264441092/',
     },
     {
       host: 'SydJS',
-      title: 'Progressive Rendering',
+      title: 'Progressive rendering in modern web apps',
       date: '2019-09-18',
       link: 'https://www.youtube.com/watch?v=Q4bCo6KdWyk',
     },
     {
       host: 'React Sydney',
-      title: 'Compile-Time React',
+      title: 'Compile-time React',
       date: '2019-11-04',
       link: 'https://twitter.com/reactsydney/status/1190769441757249536',
     },
     {
       host: "JSConf Hawai'i",
-      title: 'Faster Web with Progressive Rendering',
+      title: 'Faster web with progressive rendering',
       date: '2020-02-05',
       link: 'https://twitter.com/JSConfHi/status/1195050119374069760',
     },
     {
       host: 'React Sydney',
-      title: 'Progressive SSR + Progressive Hydration with React',
+      title: 'Progressive SSR and progressive hydration with React',
       date: '2020-03-02',
       link: '#',
     },
